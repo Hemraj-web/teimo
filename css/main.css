@@ -101,7 +101,7 @@ body{
     background: var(--primary-color);
 }
 .main-nav .nav-item .dropdown-menu{
-    background: var(--primary-color);
+    background: var(--secondry-color);
 }
 .navbar .navbar-nav .nav-item a:hover{
     color: var(--secondry-color);
