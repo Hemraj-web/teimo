@@ -94,12 +94,23 @@ body{
 .my__logo{
     max-width: 154px;
 }
-
+.main-nav {
+    background: #ae5339a6;
+}
+.main-nav.scrolled {
+    background: var(--primary-color);
+}
+.main-nav .nav-item .dropdown-menu{
+    background: var(--primary-color);
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: var(--secondry-color);
+}
 .top-banner-section .video-section .hero-video{
     object-fit: cover;
-    width: 100%; 
-    height: 100%;  
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+
   
 }
 
